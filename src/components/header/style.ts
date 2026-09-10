@@ -21,7 +21,7 @@ export const Nav = styled.nav`
     }
 `;
 
-export const LogoWrapper = styled.div`
+export const LogoWrapper = styled(Link)`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,6 +30,8 @@ export const LogoWrapper = styled.div`
     border-radius: 50%;
     background-color: #ffffff; 
     box-shadow: 0 2px 10px rgba(0,0,0,0.05); 
+    text-decoration: none; /* Removes the default link underline */
+    cursor: pointer;
 `;
 
 export const Logo = styled.img`

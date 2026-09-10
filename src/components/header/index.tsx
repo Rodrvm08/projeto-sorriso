@@ -29,9 +29,15 @@ export default function Navbar() {
         }
     };
 
+    const handleLogoClick = () => {
+        if (location.pathname === '/') {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    };
+
     return (
         <Nav>
-            <LogoWrapper>
+            <LogoWrapper to='/' onClick={handleLogoClick}>
                 <Logo src={logo} />
             </LogoWrapper>
 
