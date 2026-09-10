@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { Link } from "react-router-dom";
 import { cores } from "../../globalstyles";
 
 export const Nav = styled.nav`
@@ -7,8 +7,12 @@ export const Nav = styled.nav`
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background-color: transparent;
+    background-color: ${cores.ciano1};
     font-family: 'Playfair Display' , serif; 
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 
     @media (max-width: 768px) {
         flex-direction: column; /* Stack logo and links vertically */
@@ -47,7 +51,7 @@ export const NavLinks = styled.div`
 `;
 
 
-export const PillButton = styled.a`
+export const PillButton = styled(Link)`
     background-color: ${cores.ciano}; 
     color: white;
     text-decoration: none;
@@ -56,12 +60,12 @@ export const PillButton = styled.a`
     font-size: 18px;
     transition: background-color 0.3s ease;
 
-        &:hover {
-            background-color: #12897b;
-        } 
+    &:hover {
+        background-color: #12897b;
+    }
     
     @media (max-width: 768px) {
         font-size: 16px;
         padding: 10px 20px;
     }
-`
+`;

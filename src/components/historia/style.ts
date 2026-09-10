@@ -3,18 +3,20 @@ import { cores } from "../../globalstyles";
 
 export const HistoriaSection = styled.section`
     display: flex;
-    width: calc(100% - 80px);
-    max-width: 1200px;
+    width: calc(100% - 120px);
+    max-width: 1150px;
     margin: 50px auto 0; 
     background-color: #ffffff;
     border-radius: 30px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
     overflow: hidden;
-    scroll-margin-top: 20px; 
+    scroll-margin-top: 120px; 
+    
 
     @media (max-width: 768px) {
         flex-direction: column;
         width: calc(100% - 40px);
+        max-width: 100%;
     }
 `;
 
