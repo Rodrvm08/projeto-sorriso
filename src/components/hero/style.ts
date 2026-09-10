@@ -3,8 +3,8 @@ import { cores } from "../../globalstyles";
 
 export const HeroSection = styled.section`
     display: flex;
-    width: calc(100% - 80px); 
-    max-width: 1200px;
+    width: calc(100% - 40px); 
+    max-width: 1400px;
     margin: 0 auto; 
     min-height: 450px;
     background-color: #ffffff;

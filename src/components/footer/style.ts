@@ -1,5 +1,5 @@
 import { cores } from "../../globalstyles";
-
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const FooterSection = styled.footer`
@@ -152,7 +152,7 @@ export const FooterLinks = styled.div`
     }
 `;
 
-export const Link = styled.a`
+export const LinkF = styled(Link)`
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
@@ -175,6 +175,10 @@ export const InstagramIcon = styled.a`
         width: 40px;
         height: 40px;
         fill: currentColor;
+    }
+
+    &:hover {
+        opacity: 0.7;
     }
 
     @media (max-width: 480px) {

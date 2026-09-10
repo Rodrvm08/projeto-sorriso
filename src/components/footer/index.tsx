@@ -1,7 +1,7 @@
 import { 
     FooterSection, LeftColumn, LogoCircle, CrestImage, Copyright, 
     CenterColumn, QRCode, CallToAction, 
-    RightColumn, FooterLinks, Link, InstagramIcon, CrestLink 
+    RightColumn, FooterLinks, LinkF, InstagramIcon, CrestLink 
 } from "./style";
 
 
@@ -45,10 +45,10 @@ export default function Footer() {
             
             <RightColumn>
                 <FooterLinks>
-                    <Link href="#sobre">Sobre</Link>
-                    <Link href="#apoie">Apoie</Link>
-                    <Link href="#transparencia">Transparência</Link>
-                    <Link href="#contato">Contato</Link>
+                    <LinkF to="/#sobre">Sobre</LinkF>
+                    <LinkF to="/apoie">Apoie</LinkF>
+                    <LinkF to="/#transparencia">Transparência</LinkF>
+                    <LinkF to="/#contato">Contato</LinkF>
                 </FooterLinks>
 
                 <InstagramIcon 
