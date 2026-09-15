@@ -8,7 +8,7 @@ export const FooterSection = styled.footer`
     padding: 50px 80px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     font-family: 'Playfair Display', serif;
     color: white;
     margin-top: 0; 

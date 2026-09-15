@@ -1,13 +1,12 @@
 import { 
     FooterSection, LeftColumn, LogoCircle, CrestImage, Copyright, 
-    CenterColumn, QRCode, CallToAction, 
+    CenterColumn,  CallToAction, 
     RightColumn, FooterLinks, LinkF, InstagramIcon, CrestLink 
 } from "./style";
 
 
 import logo from "../../assets/logo.png"; 
 import crest from "../../assets/brasao.webp";
-import qr from "../../assets/QR.webp";
 
 
 export default function Footer() {
@@ -38,7 +37,6 @@ export default function Footer() {
 
             
             <CenterColumn>
-                <QRCode src={qr} alt="QR Code para doação" />
                 <CallToAction>Ajude nossa causa!</CallToAction>
             </CenterColumn>
 
