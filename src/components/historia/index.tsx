@@ -1,5 +1,5 @@
 import { HistoriaSection, TextContainer, Title, Paragraph, ImageContainer, Image } from "./style";
-import foto from '../../assets/context.png'
+
 
 export default function Historia() {
     return (
@@ -13,7 +13,7 @@ export default function Historia() {
             </TextContainer>
 
             <ImageContainer>
-                <Image src={foto}/>
+                <Image src="https://placehold.co/600x700/00b7b3/ffffff?text=Nossa+Equipe&font=playfair-display"  alt="Foto da nossa equipe"/>
             </ImageContainer>
         </HistoriaSection>
     );
