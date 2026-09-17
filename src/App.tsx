@@ -9,7 +9,7 @@ import Footer from './components/footer'
 import Contato from './components/contato'
 import ScrollToTop from './components/scroll'
 import Apoie from './components/voluntario'
-
+import Transparencia from './components/transparencia'
 import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 
@@ -45,6 +45,7 @@ function App() {
                 <Routes>
                     <Route path='/' element={<Home />} />
                     <Route path='/apoie' element={<Apoie />} />
+                    <Route path='/transparencia' element={<Transparencia />} />
                 </Routes>
                 
             </Container >
