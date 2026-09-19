@@ -47,26 +47,36 @@ export const Title = styled.h2`
 export const Paragraph = styled.p`
     font-family: 'Playfair Display', serif; 
     font-size: 1.2rem;
-    color: #333;
+    color: ${cores.preto};
     line-height: 1.6;
+    text-align: justify;
+    hyphens: auto;
 
     @media (max-width: 768px) {
         font-size: 1rem;
+        text-align: left;
     }
 `;
 
 export const ImageContainer = styled.div`
     width: 45%;
     position: relative;
+    min-height: 500px;
 
     @media (max-width: 768px) {
         width: 100%;
         height: 300px;
+        min-height: 300px;
     }
 `;
 
-export const Image = styled.img`
+export const Image = styled.img<{$isActive: boolean}>`
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    opacity: ${(props) => (props.$isActive ? 1 : 0)};
+    transition: opacity 1s ease-in-out;
 `;

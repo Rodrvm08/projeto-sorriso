@@ -99,20 +99,6 @@ export const CenterColumn = styled.div`
     }
 `;
 
-export const QRCode = styled.img`
-    width: 150px;
-    height: 150px;
-    background-color: #ffffff;
-    padding: 10px;
-    border-radius: 5px;
-    object-fit: contain;
-
-    @media (max-width: 480px) {
-        width: 120px;
-        height: 120px;
-    }
-`;
-
 export const CallToAction = styled.h2`
     font-size: 2.5rem;
     font-weight: 400;

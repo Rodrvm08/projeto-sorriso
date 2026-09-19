@@ -63,22 +63,22 @@ export const List = styled.div`
 
 export const Item = styled.div`
     display: flex;
-    align-items: flex-start; /* Critical: Keeps multi-line text aligned to the top line */
+    align-items: flex-start; 
     gap: 15px;
     font-family: 'Playfair Display', serif;
     font-size: 1.2rem;
     color: ${cores.preto};
-    line-height: 1.5; /* This creates a 28.8px line box */
+    line-height: 1.5; 
 `;
 
 export const Icon = styled.span`
     color: ${cores.ciano};
     width: 24px;
     height: 24px;
-    display: flex;       /* Turns the span into a flex container */
+    display: flex;       
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    margin-top: 2px;     /* (28.8px line height - 24px icon height) / 2 = 2.4px */
+    margin-top: 2px;    
 `;
 

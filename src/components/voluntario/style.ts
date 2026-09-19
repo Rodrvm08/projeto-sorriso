@@ -30,7 +30,7 @@ export const Title = styled.h2`
         font-size: 1.8rem;
         padding: 12px 20px;
         margin-bottom: 30px;
-        width: 100%; /* Ensures the title spans the screen width on mobile */
+        width: 100%; 
     }
 `;
 
@@ -43,8 +43,8 @@ export const CardsContainer = styled.div`
 
     @media (max-width: 768px) {
         gap: 20px;
-        flex-direction: column; /* Stack cards vertically on mobile */
-        align-items: center; /* Center them */
+        flex-direction: column; 
+        align-items: center; 
     }
 `;
 
@@ -72,7 +72,7 @@ export const Card = styled.div`
     }
 
     @media (max-width: 768px) {
-        width: 100%; /* Fill the container on mobile */
+        width: 100%; 
         max-width: 100%;
         padding: 30px 20px;
         min-height: auto;
@@ -97,7 +97,7 @@ export const CardDescription = styled.p`
     color: #555;
     line-height: 1.5;
     margin-bottom: 25px;
-    flex-grow: 1; /* Pushes the button to the bottom */
+    flex-grow: 1; 
 
     @media (max-width: 768px) {
         font-size: 1rem;
@@ -127,18 +127,18 @@ export const CardButton = styled.button`
     }
 `;
 
-/* --- MODAL STYLES --- */
+
 export const ModalOverlay = styled.div`
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.6); 
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 2000; /* Must be higher than the sticky header (1000) */
+    z-index: 2000; 
     padding: 20px;
 
     @media (max-width: 768px) {
@@ -222,7 +222,7 @@ export const Input = styled.input`
     padding: 12px 15px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    font-size: 1rem; /* Crucial: 1rem (16px) prevents iOS from zooming in on focus */
+    font-size: 1rem; 
     font-family: 'Playfair Display', serif;
     outline: none;
     transition: border-color 0.3s;

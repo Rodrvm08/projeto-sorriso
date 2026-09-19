@@ -15,7 +15,7 @@ export const Nav = styled.nav`
     z-index: 1000;
 
     @media (max-width: 768px) {
-        flex-direction: column; /* Stack logo and links vertically */
+        flex-direction: column; 
         gap: 20px;
         padding: 20px;
     }
@@ -30,7 +30,7 @@ export const LogoWrapper = styled(Link)`
     border-radius: 50%;
     background-color: #ffffff; 
     box-shadow: 0 2px 10px rgba(0,0,0,0.05); 
-    text-decoration: none; /* Removes the default link underline */
+    text-decoration: none; 
     cursor: pointer;
 `;
 

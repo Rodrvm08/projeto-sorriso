@@ -171,42 +171,6 @@ export const ProgressFill = styled.div<{ $percentage: number }>`
     transition: width 0.5s ease;
 `;
 
-/* --- IMPACTO DA DOAÇÃO (VALORES) --- */
-export const ImpactGrid = styled.div`
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-    width: 100%;
-
-    @media (max-width: 900px) {
-        grid-template-columns: 1fr;
-    }
-`;
-
-export const ImpactCard = styled.div`
-    background-color: #ffffff;
-    border-radius: 25px;
-    padding: 30px;
-    text-align: center;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-    border-top: 5px solid ${cores.ciano};
-`;
-
-export const ImpactValue = styled.h3`
-    font-family: 'Playfair Display', serif;
-    font-size: 2rem;
-    font-weight: 700;
-    color: ${cores.ciano};
-    margin-bottom: 10px;
-`;
-
-export const ImpactDescription = styled.p`
-    font-family: 'Playfair Display', serif;
-    font-size: 1.1rem;
-    color: ${cores.preto};
-    line-height: 1.5;
-`;
-
 export const TableWrapper = styled.div`
     width: 100%;
     overflow-x: auto;
@@ -253,28 +217,6 @@ export const Table = styled.table`
     }
 `;
 
-
-export const PartnersGrid = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
-    align-items: center;
-    margin-top: 20px;
-`;
-
-export const PartnerLogo = styled.img`
-    height: 80px;
-    object-fit: contain;
-    filter: grayscale(0%);
-    transition: transform 0.3s ease;
-
-    &:hover {
-        transform: scale(1.05);
-    }
-`;
-
-
 export const DocumentsGrid = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -311,7 +253,6 @@ export const DocumentCard = styled.a`
     }
 `;
 
-/* --- FAQ --- */
 export const FaqList = styled.div`
     width: 100%;
     display: flex;
@@ -357,7 +298,7 @@ export const FaqAnswer = styled.p`
     border-top: 1px solid #eaeaea;
 `;
 
-/* --- CTA FINAL --- */
+
 export const CtaBox = styled.div`
     background-color: ${cores.ciano};
     border-radius: 30px;

@@ -16,15 +16,15 @@ export default function Transparencia() {
         },
         {
             q: "Posso doar dinheiro em vez de materiais?",
-            a: "Não. Aceitamos apenas doações de materiais e ajuda de voluntários por principios da coordenação durante a criação do projeto"
+            a: "Não. Aceitamos apenas doações de materiais e ajuda de voluntários por principios da coordenação durante a criação do projeto."
         },
         {
             q: "Como posso ajudar então?",
-            a: "Você pode ajudar como médico voluntário ou doar materiais diretamente para nós ou com uma empresa parceira nossa que realiza doações recorrentes"
+            a: "Você pode ajudar como médico voluntário ou doar materiais diretamente para nós ou com uma empresa parceira nossa que realiza doações recorrentes."
         },
         {
             q: "Quais materiais vocês aceitam como doação?",
-            a: "Aceitamos escovas de dente infantis, creme dental, fio dental, kits de higiene bucal, brinquedos e fraldas"
+            a: "Aceitamos escovas de dente infantis, creme dental, fio dental, kits de higiene bucal, brinquedos e fraldas."
         }
     ];
 
